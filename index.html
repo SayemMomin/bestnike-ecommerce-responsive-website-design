@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce website design</title>
+
+        <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <i class="fas fa-bars" id="menu-bar"></i>
+       <a href="#" class="logo">nike</a>
+        <nav class="navbar">
+            
+            <a href="#home">home</a>
+            <a href="#products">products</a>
+            <a href="#featured">featured</a>
+            <a href="#review">review</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-user"></i>
+        </div>
+    </header>
+
+
+    <section class="home" id="home">
+        <div class="home-slider active">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike Red Shoes</span>
+                    <h1>Nike Metcon Shoes</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius earum magni ex quidem facere quos nesciunt magnam beatae autem non?</p>
+                    <div class="btn">add to cart</div>
+                </div>
+
+                <div class="images">
+                    <img src="images/home-shoe-1.png" class="shoe" alt="">
+                    <img src="images/home-text-1.png" class="text" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="home-slider">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike blue Shoes</span>
+                    <h1>Nike Metcon Shoes</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius earum magni ex quidem facere quos nesciunt magnam beatae autem non?</p>
+                    <div class="btn">add to cart</div>
+                </div>
+
+                <div class="images">
+                    <img src="images/home-shoe-2.png" class="shoe" alt="">
+                    <img src="images/home-text-2.png" class="text" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="home-slider">
+            <div class="slide">
+                <div class="content">
+                    <span>Nike yellow Shoes</span>
+                    <h1>Nike Metcon Shoes</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius earum magni ex quidem facere quos nesciunt magnam beatae autem non?</p>
+                    <div class="btn">add to cart</div>
+                </div>
+
+                <div class="images">
+                    <img src="images/home-shoe-3.png" class="shoe" alt="">
+                    <img src="images/home-text-3.png" class="text" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+
+
+        
+    </section>
+
+
+
+    <!-- js script link -->
+    <script src="script.js"></script>
+</body>
+</html>
